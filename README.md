@@ -1,4 +1,5 @@
-<!--
+
+### Dependency Tracker
 targetMap
 	Key: Item Object
 	Value: Map // Dependency map
@@ -9,4 +10,4 @@ targetMap
 			qty: Set of functions to run when quantity changes,
 		},
 
-  -->
+
