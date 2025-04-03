@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reactivity From Scratch</title>
+  </head>
+  <body>
+    <h2>Custom Reactivity</h2>
+    <h3 id="total"></h3>
+
+    <button onclick="decrementQuantity()">-</button>
+    <span>Quantity</span>
+    <button onclick="incrementQuantity()">+</button>
+    <span id="qty"></span>
+
+    <div style="padding-top: 10px">
+      <button onclick="decrementPrice()">-</button>
+      <span>Price</span>
+      <button onclick="incrementPrice()">+</button>
+      <span id="price"></span>
+    </div>
+
+    <script src="./utils.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
