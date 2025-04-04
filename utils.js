@@ -26,7 +26,7 @@ function triggerDependency(target, key) {
   }
 }
 
-function update(fn) {
+function watcher(fn) {
   const _update = () => {
     activeFunction = fn;
     try {
